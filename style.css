@@ -10,16 +10,12 @@ body {
 }
 
 .container {
-  /* border: 3px solid red; */
-  /* border: 0.5px solid #fff; */
   width: 400px;
   height: 500px;
   display: flex;
   flex-direction: column;
   padding: 28px 32px;
-  /* text-align: center; */
   background: transparent;
-  /* box-shadow:  */
   background-color: lightcoral;
   border-radius: 6px;
 }
@@ -31,13 +27,10 @@ h1 {
 
 .container .inputBox {
   text-align: center;
-  /* width: 200px; */
-  /* border: 2px solid; */
 }
 
 .container .inputBox #passwordDisplay {
   width: 280px;
-  /* line-height: 30px; */
   padding: 10px;
   font-size: 19px;
   font-family: sans-serif;
@@ -49,7 +42,6 @@ h1 {
 }
 
 .inputBox #copyIcon {
-  /* border: 1px solid; */
   position: absolute;
   margin-top: 8px;
   transform: translateX(-130%);
@@ -61,9 +53,7 @@ h1 {
 }
 
 #inputSlider {
-  /* height: 3px; */
   width: 260px;
-  /* margin: 30px 50px 1px; */
   align-self: center;
   margin-top: 24px;
   margin-bottom: 0px;
@@ -71,17 +61,12 @@ h1 {
 
 .row {
   display: flex;
-  /* flex-direction: row; */
   margin-block: 10px;
-  /* border: 2px solid; */
 }
 
 .row .sliderValue {
-  /* margin-top: 20px; */
   margin: auto;
   margin-right: 9px;
-  /* padding: 10px; */
-  /* border: 1px solid; */
   font-size: 24px;
   font-weight: 600;
   color: rgb(42, 42, 231);
@@ -91,7 +76,6 @@ h1 {
 .row label {
   flex-basis: 100%;
   font-size: 18px;
-  /* border: 2px solid; */
   font-family: cursive;
   letter-spacing: 0.4px;
 }
@@ -104,7 +88,6 @@ h1 {
 .generateBtn {
   width: 250px;
   height: 50px;
-  /* text-align: center; */
   margin-block: 8px;
   font-size: 22px;
   padding: 10px;
