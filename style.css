@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100dvh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgoldenrodyellow;
+}
+
+.container {
+  /* border: 3px solid red; */
+  /* border: 0.5px solid #fff; */
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 32px;
+  /* text-align: center; */
+  background: transparent;
+  /* box-shadow:  */
+  background-color: lightcoral;
+  border-radius: 6px;
+}
+
+h1 {
+  text-align: center;
+  word-spacing: 4px;
+}
+
+.container .inputBox {
+  text-align: center;
+  /* width: 200px; */
+  /* border: 2px solid; */
+}
+
+.container .inputBox #passwordDisplay {
+  width: 280px;
+  /* line-height: 30px; */
+  padding: 10px;
+  font-size: 19px;
+  font-family: sans-serif;
+  position: relative;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.inputBox #copyIcon {
+  /* border: 1px solid; */
+  position: absolute;
+  margin-top: 8px;
+  transform: translateX(-130%);
+  cursor: pointer;
+  z-index: 2;
+  background-color: whitesmoke;
+  margin-left: 2px;
+  padding: 3px;
+}
+
+#inputSlider {
+  /* height: 3px; */
+  width: 260px;
+  /* margin: 30px 50px 1px; */
+  align-self: center;
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+
+.row {
+  display: flex;
+  /* flex-direction: row; */
+  margin-block: 10px;
+  /* border: 2px solid; */
+}
+
+.row .sliderValue {
+  /* margin-top: 20px; */
+  margin: auto;
+  margin-right: 9px;
+  /* padding: 10px; */
+  /* border: 1px solid; */
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(42, 42, 231);
+}
+
+.row p,
+.row label {
+  flex-basis: 100%;
+  font-size: 18px;
+  /* border: 2px solid; */
+  font-family: cursive;
+  letter-spacing: 0.4px;
+}
+
+.row input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.generateBtn {
+  width: 250px;
+  height: 50px;
+  /* text-align: center; */
+  margin-block: 8px;
+  font-size: 22px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 9px;
+  font-weight: 700;
+  background-color: #2c619e;
+  color: whitesmoke;
+  border: none;
+  outline: none;
+  align-self: center;
+  cursor: pointer;
+  transform: transform 0.1s box-shadow 0.1s;
+}
+
+.generateBtn:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
